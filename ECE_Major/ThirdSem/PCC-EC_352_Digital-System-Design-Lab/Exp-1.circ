@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="2.7.1" version="1.0">
+  This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+
+  <lib desc="#Wiring" name="0"/>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4">
+    <tool name="ROM">
+      <a name="contents">addr/data: 8 8
+0
+</a>
+    </tool>
+  </lib>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#Base" name="6">
+    <tool name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+  </lib>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="6" map="Button2" name="Menu Tool"/>
+    <tool lib="6" map="Button3" name="Menu Tool"/>
+    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="6" name="Poke Tool"/>
+    <tool lib="6" name="Edit Tool"/>
+    <tool lib="6" name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin">
+      <a name="tristate" val="false"/>
+    </tool>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </tool>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="circuit" val="main"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(240,390)" to="(330,390)"/>
+    <wire from="(240,580)" to="(330,580)"/>
+    <wire from="(130,370)" to="(190,370)"/>
+    <wire from="(130,410)" to="(190,410)"/>
+    <wire from="(150,190)" to="(200,190)"/>
+    <wire from="(140,560)" to="(190,560)"/>
+    <wire from="(140,600)" to="(190,600)"/>
+    <wire from="(230,190)" to="(280,190)"/>
+    <wire from="(240,960)" to="(250,960)"/>
+    <wire from="(250,770)" to="(330,770)"/>
+    <wire from="(250,960)" to="(330,960)"/>
+    <wire from="(250,1140)" to="(330,1140)"/>
+    <wire from="(150,750)" to="(190,750)"/>
+    <wire from="(150,790)" to="(190,790)"/>
+    <wire from="(150,940)" to="(190,940)"/>
+    <wire from="(150,980)" to="(190,980)"/>
+    <wire from="(150,1120)" to="(190,1120)"/>
+    <wire from="(150,1160)" to="(190,1160)"/>
+    <comp lib="6" loc="(611,927)" name="Text">
+      <a name="text" val="X1 (Input)  |   X2(Input)  |   Y(Ouput)"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(543,953)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(691,780)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(577,219)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(700,368)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(330,960)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(536,778)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(240,580)" name="OR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(691,805)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(609,580)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(250,960)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(702,413)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(701,1166)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(549,603)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(490,38)" name="Text"/>
+    <comp lib="1" loc="(230,190)" name="NOT Gate"/>
+    <comp lib="6" loc="(616,411)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(700,952)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(701,1191)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(608,1168)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(150,980)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(130,370)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(228,669)" name="Text">
+      <a name="text" val="* NAND GATE - Using IC 7400(Quad 2I/P NAND Gate)"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(701,438)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(606,953)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(607,980)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(215,120)" name="Text">
+      <a name="text" val="* NOT GATE -- Using IC 7404(Hex Inverter)"/>
+      <a name="font" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="0" loc="(150,190)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(250,770)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(330,770)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(150,1120)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(547,580)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(611,601)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(610,1189)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(209,468)" name="Text">
+      <a name="text" val="* OR GATE - Using IC 7432(Quad 2I/P OR Gate)"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(597,751)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(246,290)" name="Text">
+      <a name="text" val="* AND GATE -- Using IC 7408(Quad 2I/P AND GAte)"/>
+      <a name="font" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="6" loc="(545,553)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(612,1022)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(650,221)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(550,623)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(709,602)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(700,999)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(614,366)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(699,1021)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(250,1140)" name="XOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(544,1141)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(549,1211)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(554,413)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(546,1168)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(548,1191)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(611,500)" name="Text">
+      <a name="text" val="Truth Table"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(538,801)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(577,201)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(598,778)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(130,410)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(700,391)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(150,790)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(606,733)" name="Text">
+      <a name="text" val="X1 (Input)  |   X2(Input)  |   Y(Ouput)"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(630,522)" name="Text">
+      <a name="text" val="X1 (Input)  |   X2(Input)  |   Y(Ouput)"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(60,115)" name="Text"/>
+    <comp lib="6" loc="(613,1210)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(701,1210)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(609,906)" name="Text">
+      <a name="text" val="Truth Table"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(607,1141)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(280,190)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(609,321)" name="Text">
+      <a name="text" val="Truth Table"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(545,980)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(555,433)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(614,1115)" name="Text">
+      <a name="text" val="X1 (Input)  |   X2(Input)  |   Y(Ouput)"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(553,372)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(616,431)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(344,848)" name="Text">
+      <a name="text" val="* NOR GATE - Using IC 7402(Quad 2I/P NOR Gate - pIN Config is different that usual)"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(600,799)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(612,158)" name="Text">
+      <a name="text" val="Truth Table"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(711,554)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(547,1003)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(692,757)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(613,1094)" name="Text">
+      <a name="text" val="Truth Table"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(330,1140)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(614,178)" name="Text">
+      <a name="text" val="X(Input)   |   Y(Ouput)"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(330,580)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(232,1048)" name="Text">
+      <a name="text" val="* XOR GATE - Using IC 7486(Quad 2I/P XOR Gate)"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(534,751)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(553,392)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(548,1023)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(600,718)" name="Text">
+      <a name="text" val="Truth Table"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(539,821)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(709,577)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(648,201)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(140,600)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(240,390)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(615,392)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(603,820)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(702,1138)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(609,1001)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(699,973)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(140,560)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(150,1160)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(608,553)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(330,390)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(710,623)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(691,827)" name="Text">
+      <a name="text" val="0"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(150,750)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(82,33)" name="Text">
+      <a name="text" val="Exp-1  "/>
+      <a name="font" val="SansSerif bold 18"/>
+    </comp>
+    <comp lib="6" loc="(634,339)" name="Text">
+      <a name="text" val="X1 (Input)  |   X2(Input)  |   Y(Ouput)"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(614,622)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(427,52)" name="Text">
+      <a name="text" val="Study &amp; Verification of Truth tables of Different Basic Logic gates(AND,OR,NOT,NAND,NOR,XOR) "/>
+      <a name="font" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="0" loc="(150,940)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+  </circuit>
+</project>
